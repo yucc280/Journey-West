@@ -12,7 +12,7 @@ import TrialDetail from '../components/map/TrialDetail';
 import MapSidebar from '../components/map/MapSidebar';
 import JourneyMap from '../components/map/JourneyMap';
 
-const DATA_URL = 'data/trials.csv';
+const DATA_URL = `${import.meta.env.BASE_URL}data/trials.csv`;
 
 function normalizeRow(row) {
   const cleanedRow = {};
