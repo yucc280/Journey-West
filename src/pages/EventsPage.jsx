@@ -21,7 +21,7 @@ export default function EventsPage() {
                 <option value="all">全部类型</option>
                 <option>妖怪袭击</option>
                 <option>道路阻隔</option>
-                <option>身份欺骗</option>
+                <option>身份伪装</option>
                 <option>师徒矛盾</option>
                 <option>神佛考验</option>
               </select>
