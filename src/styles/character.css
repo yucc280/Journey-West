@@ -1,0 +1,35 @@
+.analysis-layout--characters {
+  display: grid;
+  grid-template-columns: 240px 1fr 340px;
+  gap: 16px;
+  align-items: start;
+}
+
+.network-chart-container {
+  height: 520px;
+  width: 100%;
+  position: relative;
+}
+
+.timeline-chart-container {
+  height: 220px;
+  width: 100%;
+}
+
+.sidebar-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: calc(100vh - 180px);
+}
+
+.detail-card-wrapper {
+  max-height: 420px;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+
+.radar-chart-container {
+  height: 260px;
+  width: 100%;
+}

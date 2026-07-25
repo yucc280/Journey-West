@@ -41,7 +41,7 @@ export default function MapPage() {
   const location = useLocation();
   const navigate = useNavigate();
   const targetTrialId = location.state?.trialId;
-  console.log('地图页收到的 trialId：', targetTrialId);
+  // console.log('地图页收到的 trialId：', targetTrialId);
 
   // 1. 读取CSV
   useEffect(() => {
@@ -72,8 +72,8 @@ export default function MapPage() {
 
         parsedData.sort((a, b) => a.编号 - b.编号);
 
-        console.log('CSV原始表头：', rawData.columns);
-        console.log('处理后的八十一难数据：', parsedData);
+        // console.log('CSV原始表头：', rawData.columns);
+        // console.log('处理后的八十一难数据：', parsedData);
 
         setTrials(parsedData);
       })
@@ -173,7 +173,7 @@ export default function MapPage() {
       Number(trial.编号) === Number(targetTrialId)
   );
 
-  console.log('匹配到的 targetTrial：', targetTrial);
+  // console.log('匹配到的 targetTrial：', targetTrial);
 
   if (!targetTrial) {
     console.warn(
