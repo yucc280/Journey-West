@@ -1,0 +1,132 @@
+.text-analysis-page {
+  padding: 0 24px 24px;
+}
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr 320px;
+  gap: 20px;
+  align-items: start;
+  margin-top: 16px;
+}
+
+.grid-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 章节范围显示盒 */
+.range-display-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #faf8f3;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #e8e2d5;
+}
+
+.range-display-label {
+  font-size: 13px;
+  color: #666;
+}
+
+.range-display-value {
+  font-size: 14px;
+  color: #8b261d;
+}
+
+/* 预设 Tag 列表 */
+.preset-section-title {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.preset-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.preset-tag-btn {
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 16px;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.preset-tag-btn:hover {
+  border-color: #8b261d;
+  color: #8b261d;
+}
+
+.preset-tag-btn.active {
+  border-color: #8b261d;
+  background-color: #8b261d;
+  color: #fff;
+}
+
+/* 范围微调滑块区域 */
+.slider-control-group {
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px dashed #eee;
+  display: flex;
+  gap: 10px;
+}
+
+.slider-item {
+  flex: 1;
+}
+
+.slider-label {
+  font-size: 11px;
+  color: #888;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.slider-input {
+  width: 100%;
+  accent-color: #8b261d;
+  cursor: pointer;
+}
+
+/* 原文回溯卡片容器 */
+.raw-text-container {
+  height: 240px;
+  padding: 12px;
+  background-color: #faf8f3;
+  border-radius: 6px;
+  border-left: 4px solid #8b261d;
+  overflow-y: auto;
+}
+
+.raw-text-title {
+  margin: 0 0 8px 0;
+  color: #8b261d;
+  font-size: 15px;
+}
+
+.raw-text-paragraph {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #444;
+  margin: 0;
+  text-align: justify;
+  white-space: pre-wrap;
+  font-family: serif; 
+}
+
+.raw-text-placeholder {
+  color: #888;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 80px;
+}

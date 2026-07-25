@@ -1,62 +1,157 @@
+import React, { useState, useMemo } from 'react';
 import PageHeader from '../components/common/PageHeader';
 import Panel from '../components/common/Panel';
-import PlaceholderChart from '../components/common/PlaceholderChart';
-import ChapterRangeControl from '../components/common/ChapterRangeControl';
+
+import allCharactersData from '../data/characters.json';
+import CharacterNetworkChart from '../components/charactercharts/CharacterNetworkChart';
+import CharacterRadarChart from '../components/charactercharts/CharacterRadarChart';
+import CharacterTimelineChart from '../components/charactercharts/CharacterTimelineChart';
+import CharacterDetailCard from '../components/charactercharts/CharacterDetailCard';
 
 export default function CharactersPage() {
+  const allCharacters = useMemo(() => {
+    return Array.isArray(allCharactersData) ? allCharactersData : (allCharactersData.characters || []);
+  }, []);
+
+  // 初始化默认不选中任何角色，实现全景概览模式
+  const [selectedName, setSelectedName] = useState(null);
+  const [searchKey, setSearchKey] = useState('');
+  const [selectedCamp, setSelectedCamp] = useState('all');
+
+  // 未选中角色时返回 null，传递给子组件显示空状态 / 全景引导
+  const selectedChar = useMemo(() => {
+    if (!selectedName) return null;
+    return allCharacters.find(c => c.name === selectedName) || null;
+  }, [selectedName, allCharacters]);
+
+  const filteredCharacters = useMemo(() => {
+    return allCharacters.filter(c => {
+      const matchSearch = c.name.includes(searchKey) || (c.infobox?.别名 || '').includes(searchKey);
+      
+      let matchCamp = selectedCamp === 'all';
+      if (!matchCamp) {
+        if (selectedCamp === '其他') {
+          const knownCamps = ['取经人', '取经团队', '天庭神仙', '佛门神仙', '妖魔'];
+          matchCamp = !knownCamps.includes(c.camp);
+        } else {
+          matchCamp = c.camp === selectedCamp;
+        }
+      }
+
+      return matchSearch && matchCamp;
+    });
+  }, [allCharacters, searchKey, selectedCamp]);
+
   return (
-    <div className="page">
+    <div className="page characters-page">
       <PageHeader
-        eyebrow="人物维度"
-        title="人物关系分析"
-        description="观察人物阵营、关系强度与章节活跃变化，默认仅展示主要人物，避免网络过度拥挤。"
+        eyebrow="CHARACTER ANALYSIS"
+        title="人物关系与属性分析"
+        description="观察人物关系拓扑网络、六维能力与登场回目分布，点击交互节点联动全图表。"
       />
+
+      {/* 字符页专属三列网格 */}
       <div className="analysis-layout analysis-layout--characters">
-        <aside className="sidebar-stack">
-          <Panel title="人物筛选">
-            <ChapterRangeControl />
+        
+        {/* 左侧：筛选面板与人物列表 */}
+        <aside className="sidebar-stack sidebar-left">
+          <Panel title="角色筛选" subtitle="按姓名或阵营快速定位">
             <div className="control-group">
-              <label htmlFor="character-search">搜索人物</label>
-              <input id="character-search" type="search" placeholder="如：孙悟空" />
+              <label>
+                搜索角色
+                <input 
+                  type="search" 
+                  placeholder="如：孙悟空 / 猪八戒" 
+                  value={searchKey} 
+                  onChange={e => setSearchKey(e.target.value)}
+                />
+              </label>
             </div>
+
             <div className="control-group">
-              <label htmlFor="faction">人物阵营</label>
-              <select id="faction" defaultValue="all">
-                <option value="all">全部阵营</option>
-                <option>取经团队</option>
-                <option>神佛与天庭</option>
-                <option>妖怪</option>
-                <option>凡人与其他</option>
-              </select>
+              <label>
+                阵营归属
+                <select value={selectedCamp} onChange={e => setSelectedCamp(e.target.value)}>
+                  <option value="all">全部阵营</option>
+                  <option value="取经人">取经人</option>
+                  <option value="天庭神仙">天庭神仙</option>
+                  <option value="佛门神仙">佛门神仙</option>
+                  <option value="妖魔">妖魔</option>
+                  <option value="其他">其他</option>
+                </select>
+              </label>
             </div>
-            <div className="control-group">
-              <label htmlFor="relation">关系类型</label>
-              <select id="relation" defaultValue="all">
-                <option value="all">全部关系</option>
-                <option>敌对</option>
-                <option>帮助或同伴</option>
-                <option>师徒、亲属或从属</option>
-              </select>
+
+            {/* 当有角色被选中时，提供重置回全景视图的按钮 */}
+            {selectedName && (
+              <div style={{ marginTop: '16px' }}>
+                <button
+                  type="button"
+                  onClick={() => setSelectedName(null)}
+                  style={{
+                    width: '100%',
+                    padding: '8px 12px',
+                    backgroundColor: 'transparent',
+                    border: '1px solid #a33b31',
+                    color: '#a33b31',
+                    borderRadius: '4px',
+                    cursor: 'pointer',
+                    fontSize: '12px',
+                    fontFamily: "'Noto Serif SC', serif",
+                    transition: 'all 0.2s ease'
+                  }}
+                  onMouseOver={(e) => {
+                    e.currentTarget.style.backgroundColor = '#a33b31';
+                    e.currentTarget.style.color = '#ffffff';
+                  }}
+                  onMouseOut={(e) => {
+                    e.currentTarget.style.backgroundColor = 'transparent';
+                    e.currentTarget.style.color = '#a33b31';
+                  }}
+                >
+                  ↺ 重置为全景视图
+                </button>
+              </div>
+            )}
+          </Panel>
+        </aside>
+
+        {/* 中间：主图区（网络图 + 登场分布） */}
+        <main className="visual-stack main-content">
+          <Panel className="network-panel" title="人物关系拓扑网络" subtitle={selectedName ? `当前选中：${selectedName}` : "点击图节点可切入角色专注模式"}>
+            <div className="chart-container network-chart-container">
+              <CharacterNetworkChart 
+                characters={filteredCharacters} 
+                selectedName={selectedName} 
+                onNodeClick={setSelectedName} 
+              />
+            </div>
+          </Panel>
+
+          <Panel className="timeline-panel" title="角色首次登场回目分布 (1-100回)">
+            <div className="chart-container timeline-chart-container">
+              <CharacterTimelineChart 
+                characters={filteredCharacters} 
+                selectedName={selectedName} 
+                onSelectName={setSelectedName} 
+              />
+            </div>
+          </Panel>
+        </main>
+
+        {/* 右侧：人物档案 + 六维能力雷达 */}
+        <aside className="sidebar-stack sidebar-right">
+          <div className="detail-card-wrapper">
+            <CharacterDetailCard character={selectedChar} />
+          </div>
+
+          <Panel className="radar-panel" title="能力属性雷达图">
+            <div className="chart-container radar-chart-container">
+              <CharacterRadarChart character={selectedChar} />
             </div>
           </Panel>
         </aside>
 
-        <div className="visual-stack">
-          <Panel title="人物关系网络" subtitle="节点大小表示出场章节数，颜色区分阵营。">
-            <PlaceholderChart type="network" title="D3 力导向网络占位区域" description="支持点击、拖拽、搜索定位和直接关系聚焦。" />
-          </Panel>
-          <Panel title="人物—章节矩阵" subtitle="颜色深度表示人物在对应章节中的活跃度。">
-            <PlaceholderChart type="matrix" title="章节热力矩阵占位区域" description="与人物网络双向联动。" />
-          </Panel>
-        </div>
-
-        <Panel title="人物详情" subtitle="点击人物节点后更新">
-          <div className="portrait-placeholder">悟</div>
-          <div className="empty-detail empty-detail--compact">
-            <h3>尚未选择人物</h3>
-            <p>后续显示别名、阵营、出场章节、主要关系和参与事件。</p>
-          </div>
-        </Panel>
       </div>
     </div>
   );

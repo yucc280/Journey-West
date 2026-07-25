@@ -1,0 +1,502 @@
+[
+  {
+    "chapter": 1,
+    "sentimentScore": 0.75,
+    "conflict": 10
+  },
+  {
+    "chapter": 2,
+    "sentimentScore": 0.5,
+    "conflict": 19
+  },
+  {
+    "chapter": 3,
+    "sentimentScore": 0.67,
+    "conflict": 49
+  },
+  {
+    "chapter": 4,
+    "sentimentScore": 0.5,
+    "conflict": 22
+  },
+  {
+    "chapter": 5,
+    "sentimentScore": 0.6,
+    "conflict": 16
+  },
+  {
+    "chapter": 6,
+    "sentimentScore": 0.55,
+    "conflict": 25
+  },
+  {
+    "chapter": 7,
+    "sentimentScore": 0.62,
+    "conflict": 22
+  },
+  {
+    "chapter": 8,
+    "sentimentScore": 0.55,
+    "conflict": 13
+  },
+  {
+    "chapter": 9,
+    "sentimentScore": 0.62,
+    "conflict": 10
+  },
+  {
+    "chapter": 10,
+    "sentimentScore": 0.56,
+    "conflict": 10
+  },
+  {
+    "chapter": 11,
+    "sentimentScore": 0.58,
+    "conflict": 10
+  },
+  {
+    "chapter": 12,
+    "sentimentScore": 0.88,
+    "conflict": 10
+  },
+  {
+    "chapter": 13,
+    "sentimentScore": 0.59,
+    "conflict": 10
+  },
+  {
+    "chapter": 14,
+    "sentimentScore": 0.67,
+    "conflict": 10
+  },
+  {
+    "chapter": 15,
+    "sentimentScore": 0.55,
+    "conflict": 10
+  },
+  {
+    "chapter": 16,
+    "sentimentScore": 0.35,
+    "conflict": 13
+  },
+  {
+    "chapter": 17,
+    "sentimentScore": 0.26,
+    "conflict": 16
+  },
+  {
+    "chapter": 18,
+    "sentimentScore": 0.29,
+    "conflict": 22
+  },
+  {
+    "chapter": 19,
+    "sentimentScore": 0.5,
+    "conflict": 10
+  },
+  {
+    "chapter": 20,
+    "sentimentScore": 0.19,
+    "conflict": 16
+  },
+  {
+    "chapter": 21,
+    "sentimentScore": 0.23,
+    "conflict": 19
+  },
+  {
+    "chapter": 22,
+    "sentimentScore": 0.15,
+    "conflict": 25
+  },
+  {
+    "chapter": 23,
+    "sentimentScore": 0.6,
+    "conflict": 10
+  },
+  {
+    "chapter": 24,
+    "sentimentScore": 0.67,
+    "conflict": 10
+  },
+  {
+    "chapter": 25,
+    "sentimentScore": 0.43,
+    "conflict": 13
+  },
+  {
+    "chapter": 26,
+    "sentimentScore": 0.56,
+    "conflict": 13
+  },
+  {
+    "chapter": 27,
+    "sentimentScore": 0.15,
+    "conflict": 10
+  },
+  {
+    "chapter": 28,
+    "sentimentScore": 0.17,
+    "conflict": 13
+  },
+  {
+    "chapter": 29,
+    "sentimentScore": 0.32,
+    "conflict": 31
+  },
+  {
+    "chapter": 30,
+    "sentimentScore": 0.12,
+    "conflict": 16
+  },
+  {
+    "chapter": 31,
+    "sentimentScore": 0.12,
+    "conflict": 25
+  },
+  {
+    "chapter": 32,
+    "sentimentScore": 0.12,
+    "conflict": 10
+  },
+  {
+    "chapter": 33,
+    "sentimentScore": 0.47,
+    "conflict": 10
+  },
+  {
+    "chapter": 34,
+    "sentimentScore": 0.43,
+    "conflict": 16
+  },
+  {
+    "chapter": 35,
+    "sentimentScore": 0.25,
+    "conflict": 16
+  },
+  {
+    "chapter": 36,
+    "sentimentScore": 0.5,
+    "conflict": 10
+  },
+  {
+    "chapter": 37,
+    "sentimentScore": 0.28,
+    "conflict": 10
+  },
+  {
+    "chapter": 38,
+    "sentimentScore": 0.43,
+    "conflict": 10
+  },
+  {
+    "chapter": 39,
+    "sentimentScore": 0.29,
+    "conflict": 13
+  },
+  {
+    "chapter": 40,
+    "sentimentScore": 0.19,
+    "conflict": 16
+  },
+  {
+    "chapter": 41,
+    "sentimentScore": 0.09,
+    "conflict": 19
+  },
+  {
+    "chapter": 42,
+    "sentimentScore": 0.15,
+    "conflict": 16
+  },
+  {
+    "chapter": 43,
+    "sentimentScore": 0.23,
+    "conflict": 16
+  },
+  {
+    "chapter": 44,
+    "sentimentScore": 0.31,
+    "conflict": 10
+  },
+  {
+    "chapter": 45,
+    "sentimentScore": 0.7,
+    "conflict": 13
+  },
+  {
+    "chapter": 46,
+    "sentimentScore": 0.56,
+    "conflict": 10
+  },
+  {
+    "chapter": 47,
+    "sentimentScore": 0.32,
+    "conflict": 10
+  },
+  {
+    "chapter": 48,
+    "sentimentScore": 0.67,
+    "conflict": 16
+  },
+  {
+    "chapter": 49,
+    "sentimentScore": 0.13,
+    "conflict": 25
+  },
+  {
+    "chapter": 50,
+    "sentimentScore": 0.33,
+    "conflict": 19
+  },
+  {
+    "chapter": 51,
+    "sentimentScore": 0.31,
+    "conflict": 67
+  },
+  {
+    "chapter": 52,
+    "sentimentScore": 0.67,
+    "conflict": 43
+  },
+  {
+    "chapter": 53,
+    "sentimentScore": 0.5,
+    "conflict": 16
+  },
+  {
+    "chapter": 54,
+    "sentimentScore": 0.71,
+    "conflict": 10
+  },
+  {
+    "chapter": 55,
+    "sentimentScore": 0.28,
+    "conflict": 34
+  },
+  {
+    "chapter": 56,
+    "sentimentScore": 0.27,
+    "conflict": 10
+  },
+  {
+    "chapter": 57,
+    "sentimentScore": 0.5,
+    "conflict": 10
+  },
+  {
+    "chapter": 58,
+    "sentimentScore": 0.26,
+    "conflict": 13
+  },
+  {
+    "chapter": 59,
+    "sentimentScore": 0.55,
+    "conflict": 13
+  },
+  {
+    "chapter": 60,
+    "sentimentScore": 0.29,
+    "conflict": 19
+  },
+  {
+    "chapter": 61,
+    "sentimentScore": 0.5,
+    "conflict": 19
+  },
+  {
+    "chapter": 62,
+    "sentimentScore": 0.28,
+    "conflict": 19
+  },
+  {
+    "chapter": 63,
+    "sentimentScore": 0.57,
+    "conflict": 31
+  },
+  {
+    "chapter": 64,
+    "sentimentScore": 0.54,
+    "conflict": 10
+  },
+  {
+    "chapter": 65,
+    "sentimentScore": 0.23,
+    "conflict": 22
+  },
+  {
+    "chapter": 66,
+    "sentimentScore": 0.2,
+    "conflict": 19
+  },
+  {
+    "chapter": 67,
+    "sentimentScore": 0.26,
+    "conflict": 16
+  },
+  {
+    "chapter": 68,
+    "sentimentScore": 0.71,
+    "conflict": 10
+  },
+  {
+    "chapter": 69,
+    "sentimentScore": 0.52,
+    "conflict": 10
+  },
+  {
+    "chapter": 70,
+    "sentimentScore": 0.31,
+    "conflict": 22
+  },
+  {
+    "chapter": 71,
+    "sentimentScore": 0.4,
+    "conflict": 16
+  },
+  {
+    "chapter": 72,
+    "sentimentScore": 0.19,
+    "conflict": 13
+  },
+  {
+    "chapter": 73,
+    "sentimentScore": 0.29,
+    "conflict": 19
+  },
+  {
+    "chapter": 74,
+    "sentimentScore": 0.14,
+    "conflict": 13
+  },
+  {
+    "chapter": 75,
+    "sentimentScore": 0.19,
+    "conflict": 22
+  },
+  {
+    "chapter": 76,
+    "sentimentScore": 0.14,
+    "conflict": 25
+  },
+  {
+    "chapter": 77,
+    "sentimentScore": 0.18,
+    "conflict": 28
+  },
+  {
+    "chapter": 78,
+    "sentimentScore": 0.4,
+    "conflict": 10
+  },
+  {
+    "chapter": 79,
+    "sentimentScore": 0.42,
+    "conflict": 19
+  },
+  {
+    "chapter": 80,
+    "sentimentScore": 0.21,
+    "conflict": 10
+  },
+  {
+    "chapter": 81,
+    "sentimentScore": 0.12,
+    "conflict": 10
+  },
+  {
+    "chapter": 82,
+    "sentimentScore": 0.04,
+    "conflict": 19
+  },
+  {
+    "chapter": 83,
+    "sentimentScore": 0.14,
+    "conflict": 13
+  },
+  {
+    "chapter": 84,
+    "sentimentScore": 0.71,
+    "conflict": 10
+  },
+  {
+    "chapter": 85,
+    "sentimentScore": 0.22,
+    "conflict": 13
+  },
+  {
+    "chapter": 86,
+    "sentimentScore": 0.24,
+    "conflict": 13
+  },
+  {
+    "chapter": 87,
+    "sentimentScore": 0.62,
+    "conflict": 10
+  },
+  {
+    "chapter": 88,
+    "sentimentScore": 0.6,
+    "conflict": 46
+  },
+  {
+    "chapter": 89,
+    "sentimentScore": 0.18,
+    "conflict": 64
+  },
+  {
+    "chapter": 90,
+    "sentimentScore": 0.29,
+    "conflict": 31
+  },
+  {
+    "chapter": 91,
+    "sentimentScore": 0.14,
+    "conflict": 22
+  },
+  {
+    "chapter": 92,
+    "sentimentScore": 0.33,
+    "conflict": 31
+  },
+  {
+    "chapter": 93,
+    "sentimentScore": 0.5,
+    "conflict": 13
+  },
+  {
+    "chapter": 94,
+    "sentimentScore": 0.73,
+    "conflict": 10
+  },
+  {
+    "chapter": 95,
+    "sentimentScore": 0.22,
+    "conflict": 25
+  },
+  {
+    "chapter": 96,
+    "sentimentScore": 0.67,
+    "conflict": 10
+  },
+  {
+    "chapter": 97,
+    "sentimentScore": 0.38,
+    "conflict": 22
+  },
+  {
+    "chapter": 98,
+    "sentimentScore": 0.75,
+    "conflict": 10
+  },
+  {
+    "chapter": 99,
+    "sentimentScore": 0.71,
+    "conflict": 13
+  },
+  {
+    "chapter": 100,
+    "sentimentScore": 0.6,
+    "conflict": 10
+  }
+]

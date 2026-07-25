@@ -1,12 +1,10 @@
 import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
-import FilterStatusBar from './FilterStatusBar';
 
 export default function AppLayout() {
   return (
     <div className="app-shell">
       <Navbar />
-      <FilterStatusBar />
       <main className="app-main">
         <Outlet />
       </main>

@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import { useAnalysis } from '../../context/AnalysisContext';
 
 const navItems = [
   ['/', '总体概览'],
@@ -10,15 +9,17 @@ const navItems = [
 ];
 
 export default function Navbar() {
-  const { resetFilters } = useAnalysis();
-
   return (
     <header className="navbar">
       <NavLink to="/" className="brand" aria-label="返回总体概览">
         <span className="brand-seal">迹</span>
-        <span>
-          <strong>西游迹</strong>
-          <small>Journey to the West Visual Analytics</small>
+      
+        <span className="brand-title-wrap">
+          <img 
+            src="/media/log.png" 
+            alt="西游迹" 
+            className="brand-title-img" 
+          />
         </span>
       </NavLink>
 
@@ -34,10 +35,6 @@ export default function Navbar() {
           </NavLink>
         ))}
       </nav>
-
-      <button className="ghost-button" type="button" onClick={resetFilters}>
-        重置筛选
-      </button>
     </header>
   );
 }
