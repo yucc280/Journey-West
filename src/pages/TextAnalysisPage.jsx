@@ -97,7 +97,7 @@ export default function TextAnalysisPage() {
   return (
     <div className="page text-analysis-page">
       <PageHeader
-        eyebrow="TEXT & SENTIMENT"
+        eyebrow="文本语义维度"
         title="章节词频与情感分析"
         description="比较章节关键词、情感倾向与冲突强度，并从统计结果回溯到原文片段。"
       />

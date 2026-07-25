@@ -9,7 +9,12 @@ function resolveAssetUrl(path) {
     return path;
   }
 
-  return `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
+  const baseUrl = import.meta.env.BASE_URL;
+  if (path.startsWith(baseUrl)) {
+    return path;
+  }
+
+  return `${baseUrl}${path.replace(/^\/+/, "")}`;
 }
 
 export default function AudioVisualizer({ audioSrc }) {

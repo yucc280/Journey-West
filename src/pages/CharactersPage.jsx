@@ -45,7 +45,7 @@ export default function CharactersPage() {
   return (
     <div className="page characters-page">
       <PageHeader
-        eyebrow="CHARACTER ANALYSIS"
+        eyebrow="人物维度"
         title="人物关系与属性分析"
         description="观察人物关系拓扑网络、六维能力与登场回目分布，点击交互节点联动全图表。"
       />
