@@ -1,0 +1,1625 @@
+[
+  {
+    "id": 1,
+    "name": "金蝉遭贬",
+    "startChapter": 8,
+    "endChapter": 8,
+    "duration": 1,
+    "location": "灵山",
+    "type": "前世",
+    "summary": "金蝉子因轻慢佛法，被如来佛祖贬下真灵，转生东土。",
+    "characters": [
+      "金蝉子",
+      "如来佛祖"
+    ],
+    "characterCount": 2,
+    "stage": "取经缘起",
+    "longitude": 85.0,
+    "latitude": 24.08
+  },
+  {
+    "id": 2,
+    "name": "出胎几杀",
+    "startChapter": 9,
+    "endChapter": 9,
+    "duration": 1,
+    "location": "江州",
+    "type": "身世劫难",
+    "summary": "殷温娇产子后，为保性命将其放入江中漂流，险些溺亡。",
+    "characters": [
+      "唐僧（婴儿）",
+      "殷温娇",
+      "刘洪"
+    ],
+    "characterCount": 3,
+    "stage": "取经缘起",
+    "longitude": 115.99,
+    "latitude": 29.71
+  },
+  {
+    "id": 3,
+    "name": "满月抛江",
+    "startChapter": 9,
+    "endChapter": 9,
+    "duration": 1,
+    "location": "金山寺",
+    "type": "身世劫难",
+    "summary": "法明和尚救起婴儿，抚养于金山寺，十八年后才知身世。",
+    "characters": [
+      "唐僧（婴儿）",
+      "殷温娇",
+      "法明和尚"
+    ],
+    "characterCount": 3,
+    "stage": "取经缘起",
+    "longitude": 119.44,
+    "latitude": 32.21
+  },
+  {
+    "id": 4,
+    "name": "寻亲报冤",
+    "startChapter": 12,
+    "endChapter": 12,
+    "duration": 1,
+    "location": "江州",
+    "type": "身世劫难",
+    "summary": "玄奘寻得母亲与外公，惩治刘洪，为父报仇，沉冤得雪。",
+    "characters": [
+      "唐僧",
+      "殷温娇",
+      "刘洪",
+      "殷开山"
+    ],
+    "characterCount": 4,
+    "stage": "取经缘起",
+    "longitude": 115.99,
+    "latitude": 29.71
+  },
+  {
+    "id": 5,
+    "name": "出城逢虎",
+    "startChapter": 13,
+    "endChapter": 13,
+    "duration": 1,
+    "location": "双叉岭",
+    "type": "妖怪袭击",
+    "summary": "唐僧刚出长安边界，便遇猛虎，幸得太白金星解救脱险。",
+    "characters": [
+      "唐僧",
+      "太白金星",
+      "猛虎"
+    ],
+    "characterCount": 3,
+    "stage": "师徒集结",
+    "longitude": 107.15,
+    "latitude": 34.37
+  },
+  {
+    "id": 6,
+    "name": "落坑折从",
+    "startChapter": 13,
+    "endChapter": 13,
+    "duration": 1,
+    "location": "双叉岭",
+    "type": "道路阻隔",
+    "summary": "唐僧与随从落入陷阱，两名随从被妖怪吃掉，唐僧被缚。",
+    "characters": [
+      "唐僧",
+      "随从",
+      "熊精",
+      "虎精"
+    ],
+    "characterCount": 4,
+    "stage": "师徒集结",
+    "longitude": 107.15,
+    "latitude": 34.37
+  },
+  {
+    "id": 7,
+    "name": "双叉岭上",
+    "startChapter": 13,
+    "endChapter": 13,
+    "duration": 1,
+    "location": "双叉岭",
+    "type": "妖怪袭击",
+    "summary": "唐僧被熊精、牛精、虎精擒获，太白金星再次化身相救。",
+    "characters": [
+      "唐僧",
+      "太白金星",
+      "熊精",
+      "牛精",
+      "虎精"
+    ],
+    "characterCount": 5,
+    "stage": "师徒集结",
+    "longitude": 107.15,
+    "latitude": 34.37
+  },
+  {
+    "id": 8,
+    "name": "两界山头",
+    "startChapter": 14,
+    "endChapter": 14,
+    "duration": 1,
+    "location": "两界山",
+    "type": "神佛考验",
+    "summary": "唐僧揭去压帖，救出孙悟空，收为大徒弟，踏上西行路。",
+    "characters": [
+      "唐僧",
+      "孙悟空"
+    ],
+    "characterCount": 2,
+    "stage": "师徒集结",
+    "longitude": 96.93,
+    "latitude": 40.27
+  },
+  {
+    "id": 9,
+    "name": "陡涧换马",
+    "startChapter": 15,
+    "endChapter": 15,
+    "duration": 1,
+    "location": "蛇盘山鹰愁涧",
+    "type": "妖怪袭击",
+    "summary": "小白龙吞食唐僧白马，孙悟空与之打斗，后观音点化龙马。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "小白龙",
+      "观音菩萨"
+    ],
+    "characterCount": 4,
+    "stage": "师徒集结",
+    "longitude": 95.0,
+    "latitude": 41.0
+  },
+  {
+    "id": 10,
+    "name": "夜被火烧",
+    "startChapter": 16,
+    "endChapter": 16,
+    "duration": 1,
+    "location": "观音院",
+    "type": "师徒心性",
+    "summary": "院主贪恋袈裟放火谋害，悟空借避火罩护师，反烧寺院。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "金池长老"
+    ],
+    "characterCount": 3,
+    "stage": "师徒集结",
+    "longitude": 94.0,
+    "latitude": 41.5
+  },
+  {
+    "id": 11,
+    "name": "失却袈裟",
+    "startChapter": 17,
+    "endChapter": 17,
+    "duration": 1,
+    "location": "黑风山",
+    "type": "妖怪袭击",
+    "summary": "黑熊怪趁火打劫盗走锦襕袈裟，悟空与之争斗未能夺回。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "黑熊怪"
+    ],
+    "characterCount": 3,
+    "stage": "师徒集结",
+    "longitude": 93.5,
+    "latitude": 41.8
+  },
+  {
+    "id": 12,
+    "name": "收降八戒",
+    "startChapter": 19,
+    "endChapter": 19,
+    "duration": 1,
+    "location": "高老庄",
+    "type": "妖怪袭击",
+    "summary": "猪八戒强占高翠兰，悟空与其大战，最终收服其为二徒弟。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "高翠兰"
+    ],
+    "characterCount": 4,
+    "stage": "师徒集结",
+    "longitude": 92.5,
+    "latitude": 42.0
+  },
+  {
+    "id": 13,
+    "name": "黄风怪阻",
+    "startChapter": 20,
+    "endChapter": 20,
+    "duration": 1,
+    "location": "黄风岭",
+    "type": "妖怪袭击",
+    "summary": "黄风怪用三昧神风吹走悟空，掳走唐僧，悟空难以近身。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "黄风怪"
+    ],
+    "characterCount": 3,
+    "stage": "师徒集结",
+    "longitude": 91.5,
+    "latitude": 42.2
+  },
+  {
+    "id": 14,
+    "name": "请求灵吉",
+    "startChapter": 21,
+    "endChapter": 21,
+    "duration": 1,
+    "location": "小须弥山",
+    "type": "神佛考验",
+    "summary": "悟空求助灵吉菩萨，得定风丹与飞龙杖，降伏黄风怪。",
+    "characters": [
+      "孙悟空",
+      "灵吉菩萨",
+      "黄风怪"
+    ],
+    "characterCount": 3,
+    "stage": "师徒集结",
+    "longitude": 91.0,
+    "latitude": 42.3
+  },
+  {
+    "id": 15,
+    "name": "流沙难渡",
+    "startChapter": 22,
+    "endChapter": 22,
+    "duration": 1,
+    "location": "流沙河",
+    "type": "道路阻隔",
+    "summary": "流沙河宽八百里的弱水，鹅毛飘不起，芦花定底沉，难渡。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "沙僧"
+    ],
+    "characterCount": 4,
+    "stage": "师徒集结",
+    "longitude": 90.0,
+    "latitude": 42.5
+  },
+  {
+    "id": 16,
+    "name": "收得沙僧",
+    "startChapter": 22,
+    "endChapter": 22,
+    "duration": 1,
+    "location": "流沙河",
+    "type": "妖怪袭击",
+    "summary": "沙悟净在河中作祟，经木叉行者点化，拜唐僧为师，渡河。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "沙僧",
+      "木叉行者"
+    ],
+    "characterCount": 5,
+    "stage": "师徒集结",
+    "longitude": 90.0,
+    "latitude": 42.5
+  },
+  {
+    "id": 17,
+    "name": "四圣显化",
+    "startChapter": 23,
+    "endChapter": 23,
+    "duration": 1,
+    "location": "莫家庄",
+    "type": "神佛考验",
+    "summary": "黎山老母与三菩萨化身母女试禅心，八戒动凡心被吊树上。",
+    "characters": [
+      "唐僧",
+      "猪八戒",
+      "黎山老母",
+      "观音菩萨",
+      "文殊菩萨",
+      "普贤菩萨"
+    ],
+    "characterCount": 6,
+    "stage": "漫长历险",
+    "longitude": 89.5,
+    "latitude": 42.7
+  },
+  {
+    "id": 18,
+    "name": "五庄观中",
+    "startChapter": 24,
+    "endChapter": 24,
+    "duration": 1,
+    "location": "万寿山五庄观",
+    "type": "师徒心性",
+    "summary": "童子辱骂唐僧，悟空怒推人参果树，惹下大祸，连夜逃走。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "沙僧",
+      "镇元子"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 89.19,
+    "latitude": 42.91
+  },
+  {
+    "id": 19,
+    "name": "难活人参",
+    "startChapter": 25,
+    "endChapter": 25,
+    "duration": 1,
+    "location": "万寿山五庄观",
+    "type": "神佛考验",
+    "summary": "悟空四处求方，终请观音菩萨用甘露水救活人参果树。",
+    "characters": [
+      "孙悟空",
+      "观音菩萨",
+      "镇元子",
+      "唐僧"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 89.19,
+    "latitude": 42.91
+  },
+  {
+    "id": 20,
+    "name": "贬退心猿",
+    "startChapter": 27,
+    "endChapter": 27,
+    "duration": 1,
+    "location": "白虎岭",
+    "type": "师徒心性",
+    "summary": "白骨精三次变化迷惑唐僧，悟空打死妖精却被误解驱逐。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "白骨精",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 88.5,
+    "latitude": 42.8
+  },
+  {
+    "id": 21,
+    "name": "黑松林失散",
+    "startChapter": 28,
+    "endChapter": 28,
+    "duration": 1,
+    "location": "黑松林",
+    "type": "妖怪袭击",
+    "summary": "唐僧误入黑松林被黄袍怪擒获，八戒沙僧寻师未果。",
+    "characters": [
+      "唐僧",
+      "猪八戒",
+      "沙僧",
+      "黄袍怪"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 87.5,
+    "latitude": 42.5
+  },
+  {
+    "id": 22,
+    "name": "宝象国捎书",
+    "startChapter": 29,
+    "endChapter": 29,
+    "duration": 1,
+    "location": "宝象国",
+    "type": "身份伪装",
+    "summary": "百花羞公主托唐僧带信给父王，揭露黄袍怪霸占公主真相。",
+    "characters": [
+      "唐僧",
+      "百花羞公主",
+      "黄袍怪"
+    ],
+    "characterCount": 3,
+    "stage": "漫长历险",
+    "longitude": 86.57,
+    "latitude": 42.06
+  },
+  {
+    "id": 23,
+    "name": "金銮殿变虎",
+    "startChapter": 30,
+    "endChapter": 31,
+    "duration": 2,
+    "location": "宝象国",
+    "type": "妖怪袭击",
+    "summary": "黄袍怪施法将唐僧变为猛虎，诬陷其为妖，国王信以为真。",
+    "characters": [
+      "唐僧",
+      "黄袍怪",
+      "宝象国国王",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 86.57,
+    "latitude": 42.06
+  },
+  {
+    "id": 24,
+    "name": "平顶山逢魔",
+    "startChapter": 32,
+    "endChapter": 32,
+    "duration": 1,
+    "location": "平顶山莲花洞",
+    "type": "妖怪袭击",
+    "summary": "金角、银角大王设局捉拿唐僧，悟空智斗二怪，屡遭算计。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "金角大王",
+      "银角大王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 85.0,
+    "latitude": 41.8
+  },
+  {
+    "id": 25,
+    "name": "莲花洞高悬",
+    "startChapter": 33,
+    "endChapter": 33,
+    "duration": 1,
+    "location": "平顶山莲花洞",
+    "type": "妖怪袭击",
+    "summary": "唐僧被吊在梁上，悟空变苍蝇探听，用计骗取宝贝葫芦。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "金角大王",
+      "银角大王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 85.0,
+    "latitude": 41.8
+  },
+  {
+    "id": 26,
+    "name": "乌鸡国救主",
+    "startChapter": 36,
+    "endChapter": 39,
+    "duration": 4,
+    "location": "乌鸡国",
+    "type": "身份伪装",
+    "summary": "青毛狮子怪推国王入井篡位，悟空从井中捞尸，求丹复活。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "乌鸡国国王",
+      "青毛狮子怪"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 82.94,
+    "latitude": 41.71
+  },
+  {
+    "id": 27,
+    "name": "被魔化身",
+    "startChapter": 36,
+    "endChapter": 39,
+    "duration": 4,
+    "location": "乌鸡国",
+    "type": "身份伪装",
+    "summary": "妖怪变作唐僧模样混淆视听，八戒激悟空辨认真假，降妖。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "青毛狮子怪"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 82.94,
+    "latitude": 41.71
+  },
+  {
+    "id": 28,
+    "name": "号山逢怪",
+    "startChapter": 40,
+    "endChapter": 40,
+    "duration": 1,
+    "location": "号山枯松涧",
+    "type": "妖怪袭击",
+    "summary": "红孩儿变作受难孩童骗唐僧，掳走后欲吃唐僧肉长生不老。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "红孩儿"
+    ],
+    "characterCount": 3,
+    "stage": "漫长历险",
+    "longitude": 81.0,
+    "latitude": 41.5
+  },
+  {
+    "id": 29,
+    "name": "风摄圣僧",
+    "startChapter": 40,
+    "endChapter": 40,
+    "duration": 1,
+    "location": "号山火云洞",
+    "type": "妖怪袭击",
+    "summary": "红孩儿口吐三昧真火，悟空不敌，请来四海龙王降雨灭火。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "红孩儿"
+    ],
+    "characterCount": 3,
+    "stage": "漫长历险",
+    "longitude": 81.0,
+    "latitude": 41.5
+  },
+  {
+    "id": 30,
+    "name": "心猿遭害",
+    "startChapter": 41,
+    "endChapter": 41,
+    "duration": 1,
+    "location": "号山火云洞",
+    "type": "妖怪袭击",
+    "summary": "悟空被烟火熏伤昏迷，八戒请观音菩萨，用金箍收服红孩儿。",
+    "characters": [
+      "孙悟空",
+      "红孩儿",
+      "猪八戒",
+      "观音菩萨"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 81.0,
+    "latitude": 41.5
+  },
+  {
+    "id": 31,
+    "name": "请圣降妖",
+    "startChapter": 42,
+    "endChapter": 42,
+    "duration": 1,
+    "location": "号山火云洞",
+    "type": "神佛考验",
+    "summary": "观音菩萨收红孩儿为善财童子，解了唐僧之难，继续西行。",
+    "characters": [
+      "观音菩萨",
+      "红孩儿",
+      "孙悟空",
+      "唐僧"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 81.0,
+    "latitude": 41.5
+  },
+  {
+    "id": 32,
+    "name": "黑河沉没",
+    "startChapter": 43,
+    "endChapter": 43,
+    "duration": 1,
+    "location": "黑水河",
+    "type": "妖怪袭击",
+    "summary": "鼍龙怪变作船夫沉船捉唐僧，悟空水下难战，请西海龙王。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "鼍龙怪"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 80.0,
+    "latitude": 41.3
+  },
+  {
+    "id": 33,
+    "name": "搬运车迟",
+    "startChapter": 44,
+    "endChapter": 44,
+    "duration": 1,
+    "location": "车迟国",
+    "type": "身份伪装",
+    "summary": "虎力、鹿力、羊力三仙欺君灭僧，强迫和尚做苦力搬运。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "沙僧",
+      "虎力大仙"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 80.26,
+    "latitude": 41.17
+  },
+  {
+    "id": 34,
+    "name": "大赌输赢",
+    "startChapter": 45,
+    "endChapter": 45,
+    "duration": 1,
+    "location": "车迟国",
+    "type": "神佛考验",
+    "summary": "悟空与三仙斗法求雨、坐禅、猜枚，凭借神通逐一获胜。",
+    "characters": [
+      "孙悟空",
+      "虎力大仙",
+      "鹿力大仙",
+      "羊力大仙"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 80.26,
+    "latitude": 41.17
+  },
+  {
+    "id": 35,
+    "name": "祛道兴僧",
+    "startChapter": 46,
+    "endChapter": 46,
+    "duration": 1,
+    "location": "车迟国",
+    "type": "神佛考验",
+    "summary": "三仙现原形被杀，车迟国君王醒悟，释放僧人，复兴佛教。",
+    "characters": [
+      "孙悟空",
+      "虎力大仙",
+      "鹿力大仙",
+      "羊力大仙",
+      "车迟国国王"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 80.26,
+    "latitude": 41.17
+  },
+  {
+    "id": 36,
+    "name": "路逢大水",
+    "startChapter": 47,
+    "endChapter": 47,
+    "duration": 1,
+    "location": "通天河",
+    "type": "道路阻隔",
+    "summary": "通天河宽阔难渡，听闻灵感大王每年要吃童男童女祭祀。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "灵感大王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 78.0,
+    "latitude": 41.0
+  },
+  {
+    "id": 37,
+    "name": "身落天河",
+    "startChapter": 48,
+    "endChapter": 48,
+    "duration": 1,
+    "location": "通天河",
+    "type": "妖怪袭击",
+    "summary": "悟空八戒变童男女诱妖，妖怪施法冻结河面，冰裂陷唐僧。",
+    "characters": [
+      "唐僧",
+      "灵感大王",
+      "孙悟空",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 78.0,
+    "latitude": 41.0
+  },
+  {
+    "id": 38,
+    "name": "鱼篮现身",
+    "startChapter": 49,
+    "endChapter": 49,
+    "duration": 1,
+    "location": "通天河",
+    "type": "神佛考验",
+    "summary": "悟空请观音菩萨，编竹篮收服金鱼精，老鼋驮师徒过河。",
+    "characters": [
+      "观音菩萨",
+      "灵感大王",
+      "孙悟空",
+      "唐僧",
+      "老鼋"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 78.0,
+    "latitude": 41.0
+  },
+  {
+    "id": 39,
+    "name": "金兜山遇怪",
+    "startChapter": 50,
+    "endChapter": 50,
+    "duration": 1,
+    "location": "金兜山金兜洞",
+    "type": "妖怪袭击",
+    "summary": "青牛精用金刚琢套走悟空金箍棒，天兵天将兵器皆被套走。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "青牛精",
+      "猪八戒",
+      "沙僧"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 77.58,
+    "latitude": 42.45
+  },
+  {
+    "id": 40,
+    "name": "普天神难伏",
+    "startChapter": 51,
+    "endChapter": 51,
+    "duration": 1,
+    "location": "金兜山金兜洞",
+    "type": "妖怪袭击",
+    "summary": "悟空请来火德星君、水德星君等，兵器仍被套，无可奈何。",
+    "characters": [
+      "孙悟空",
+      "青牛精",
+      "托塔天王",
+      "火德星君",
+      "水德星君"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 77.58,
+    "latitude": 42.45
+  },
+  {
+    "id": 41,
+    "name": "问佛根源",
+    "startChapter": 52,
+    "endChapter": 52,
+    "duration": 1,
+    "location": "兜率宫",
+    "type": "神佛考验",
+    "summary": "悟空求问如来，得知是太上老君坐骑青牛，老君收服孽畜。",
+    "characters": [
+      "孙悟空",
+      "如来佛祖",
+      "太上老君",
+      "青牛精"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 77.6,
+    "latitude": 42.46
+  },
+  {
+    "id": 42,
+    "name": "吃水遭毒",
+    "startChapter": 53,
+    "endChapter": 53,
+    "duration": 1,
+    "location": "女儿国子母河",
+    "type": "道路阻隔",
+    "summary": "唐僧八戒误饮子母河水怀孕腹痛，需解阳山破儿泉水化解。",
+    "characters": [
+      "唐僧",
+      "猪八戒",
+      "孙悟空",
+      "沙僧"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 75.3,
+    "latitude": 42.82
+  },
+  {
+    "id": 43,
+    "name": "西梁国留婚",
+    "startChapter": 54,
+    "endChapter": 54,
+    "duration": 1,
+    "location": "西梁女国",
+    "type": "师徒心性",
+    "summary": "女王愿以国相托招赘唐僧，唐僧假意应允，趁机脱身西去。",
+    "characters": [
+      "唐僧",
+      "西梁女王",
+      "孙悟空",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 75.3,
+    "latitude": 42.82
+  },
+  {
+    "id": 44,
+    "name": "琵琶洞受苦",
+    "startChapter": 55,
+    "endChapter": 55,
+    "duration": 1,
+    "location": "毒敌山琵琶洞",
+    "type": "妖怪袭击",
+    "summary": "蝎子精掳走唐僧逼婚，其倒马毒桩厉害，蛰伤悟空头部。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "蝎子精"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 75.2,
+    "latitude": 42.8
+  },
+  {
+    "id": 45,
+    "name": "再贬心猿",
+    "startChapter": 56,
+    "endChapter": 56,
+    "duration": 1,
+    "location": "路边",
+    "type": "师徒心性",
+    "summary": "悟空打死强盗，唐僧再次念咒驱逐，悟空离去，六耳猕猴趁虚而入。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "强盗",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 74.0,
+    "latitude": 42.5
+  },
+  {
+    "id": 46,
+    "name": "难辨猕猴",
+    "startChapter": 57,
+    "endChapter": 58,
+    "duration": 2,
+    "location": "灵山",
+    "type": "身份伪装",
+    "summary": "六耳猕猴假扮悟空打伤唐僧，真假美猴王上天入地难辨真伪。",
+    "characters": [
+      "孙悟空",
+      "六耳猕猴",
+      "唐僧",
+      "如来佛祖",
+      "观音菩萨"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 73.5,
+    "latitude": 42.3
+  },
+  {
+    "id": 47,
+    "name": "路阻火焰山",
+    "startChapter": 59,
+    "endChapter": 59,
+    "duration": 1,
+    "location": "火焰山",
+    "type": "道路阻隔",
+    "summary": "火焰山烈火熊熊，无法通过，需借铁扇公主芭蕉扇熄火。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "铁扇公主"
+    ],
+    "characterCount": 3,
+    "stage": "漫长历险",
+    "longitude": 74.0,
+    "latitude": 42.0
+  },
+  {
+    "id": 48,
+    "name": "求取芭蕉扇",
+    "startChapter": 59,
+    "endChapter": 61,
+    "duration": 3,
+    "location": "翠云山芭蕉洞",
+    "type": "妖怪袭击",
+    "summary": "悟空借扇受阻，变虫入腹逼铁扇公主，得假扇火越扇越大。",
+    "characters": [
+      "孙悟空",
+      "铁扇公主",
+      "牛魔王"
+    ],
+    "characterCount": 3,
+    "stage": "漫长历险",
+    "longitude": 73.9,
+    "latitude": 42.05
+  },
+  {
+    "id": 49,
+    "name": "收缚魔王",
+    "startChapter": 61,
+    "endChapter": 61,
+    "duration": 1,
+    "location": "积雷山摩云洞",
+    "type": "妖怪袭击",
+    "summary": "悟空联合土地阴兵，打败牛魔王，铁扇公主献出真芭蕉扇。",
+    "characters": [
+      "孙悟空",
+      "牛魔王",
+      "铁扇公主",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 73.8,
+    "latitude": 42.1
+  },
+  {
+    "id": 50,
+    "name": "赛城扫塔",
+    "startChapter": 62,
+    "endChapter": 62,
+    "duration": 1,
+    "location": "祭赛国金光寺",
+    "type": "身份伪装",
+    "summary": "金光寺宝塔蒙尘，悟空夜间扫塔，抓获偷宝物的鲇鱼怪。",
+    "characters": [
+      "孙悟空",
+      "唐僧",
+      "鲇鱼怪",
+      "祭赛国国王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 72.0,
+    "latitude": 41.0
+  },
+  {
+    "id": 51,
+    "name": "取宝救僧",
+    "startChapter": 63,
+    "endChapter": 63,
+    "duration": 1,
+    "location": "碧波潭",
+    "type": "妖怪袭击",
+    "summary": "悟空潜入碧波潭，打败九头虫，夺回佛宝舍利，洗净污名。",
+    "characters": [
+      "孙悟空",
+      "九头虫",
+      "猪八戒",
+      "祭赛国国王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 71.9,
+    "latitude": 41.05
+  },
+  {
+    "id": 52,
+    "name": "棘林吟咏",
+    "startChapter": 64,
+    "endChapter": 64,
+    "duration": 1,
+    "location": "荆棘岭",
+    "type": "道路阻隔",
+    "summary": "荆棘岭树精摄走唐僧谈诗论道，并无恶意，八戒筑倒树精。",
+    "characters": [
+      "唐僧",
+      "树精",
+      "猪八戒",
+      "孙悟空"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 70.0,
+    "latitude": 40.0
+  },
+  {
+    "id": 53,
+    "name": "小雷音遇难",
+    "startChapter": 65,
+    "endChapter": 65,
+    "duration": 1,
+    "location": "小雷音寺",
+    "type": "身份伪装",
+    "summary": "黄眉怪假扮佛祖设小雷音寺，唐僧误入被擒，悟空被困金铙。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "黄眉怪",
+      "猪八戒",
+      "沙僧"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 69.0,
+    "latitude": 39.0
+  },
+  {
+    "id": 54,
+    "name": "诸天神遭困",
+    "startChapter": 66,
+    "endChapter": 66,
+    "duration": 1,
+    "location": "小雷音寺",
+    "type": "妖怪袭击",
+    "summary": "黄眉怪用人种袋收尽天兵天将，悟空逃脱，求弥勒佛相助。",
+    "characters": [
+      "孙悟空",
+      "黄眉怪",
+      "弥勒佛",
+      "二十八宿"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 69.0,
+    "latitude": 39.0
+  },
+  {
+    "id": 55,
+    "name": "稀柿衕秽阻",
+    "startChapter": 67,
+    "endChapter": 67,
+    "duration": 1,
+    "location": "七绝山",
+    "type": "道路阻隔",
+    "summary": "七绝山满山柿子腐烂成泥，臭气熏天，八戒变猪拱开道路。",
+    "characters": [
+      "猪八戒",
+      "唐僧",
+      "孙悟空",
+      "沙僧"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 68.0,
+    "latitude": 38.0
+  },
+  {
+    "id": 56,
+    "name": "朱紫国行医",
+    "startChapter": 68,
+    "endChapter": 68,
+    "duration": 1,
+    "location": "朱紫国",
+    "type": "身份伪装",
+    "summary": "国王患双鸟失群之症，悟空悬丝诊脉，用马尿药丸治病。",
+    "characters": [
+      "孙悟空",
+      "朱紫国国王",
+      "唐僧",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 67.0,
+    "latitude": 37.0
+  },
+  {
+    "id": 57,
+    "name": "拯救疲癃",
+    "startChapter": 69,
+    "endChapter": 69,
+    "duration": 1,
+    "location": "麒麟山獬豸洞",
+    "type": "妖怪袭击",
+    "summary": "赛太岁抢走金圣宫娘娘，悟空盗取紫金铃，救出娘娘。",
+    "characters": [
+      "孙悟空",
+      "赛太岁",
+      "金圣宫娘娘",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 66.9,
+    "latitude": 37.05
+  },
+  {
+    "id": 58,
+    "name": "降妖取后",
+    "startChapter": 70,
+    "endChapter": 71,
+    "duration": 2,
+    "location": "麒麟山獬豸洞",
+    "type": "妖怪袭击",
+    "summary": "观音菩萨收服赛太岁（金毛犼），国王夫妇团聚，感恩送行。",
+    "characters": [
+      "观音菩萨",
+      "赛太岁",
+      "孙悟空",
+      "朱紫国国王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 66.9,
+    "latitude": 37.05
+  },
+  {
+    "id": 59,
+    "name": "七情迷没",
+    "startChapter": 72,
+    "endChapter": 72,
+    "duration": 1,
+    "location": "盘丝岭盘丝洞",
+    "type": "妖怪袭击",
+    "summary": "七个蜘蛛精将唐僧绑在洞里，悟空变鹰叼走衣服，救师。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "蜘蛛精",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 66.0,
+    "latitude": 36.0
+  },
+  {
+    "id": 60,
+    "name": "多目遭伤",
+    "startChapter": 73,
+    "endChapter": 73,
+    "duration": 1,
+    "location": "黄花观",
+    "type": "妖怪袭击",
+    "summary": "蜈蚣精在多目观下毒，悟空不敌其金光，请黎山老母指点。",
+    "characters": [
+      "孙悟空",
+      "蜈蚣精",
+      "黎山老母",
+      "唐僧"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 65.9,
+    "latitude": 36.05
+  },
+  {
+    "id": 61,
+    "name": "路阻狮驼",
+    "startChapter": 74,
+    "endChapter": 77,
+    "duration": 4,
+    "location": "狮驼岭",
+    "type": "妖怪袭击",
+    "summary": "青狮、白象、大鹏三魔占据狮驼岭，势力庞大，阻挡去路。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "青狮精",
+      "白象精",
+      "大鹏精"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 65.0,
+    "latitude": 35.0
+  },
+  {
+    "id": 62,
+    "name": "怪分三色",
+    "startChapter": 75,
+    "endChapter": 75,
+    "duration": 1,
+    "location": "狮驼洞",
+    "type": "妖怪袭击",
+    "summary": "三魔各显神通，大鹏阴阳二气瓶险些炼化悟空，悟空逃脱。",
+    "characters": [
+      "孙悟空",
+      "青狮精",
+      "白象精",
+      "大鹏精",
+      "猪八戒"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 64.9,
+    "latitude": 35.05
+  },
+  {
+    "id": 63,
+    "name": "城里遇灾",
+    "startChapter": 76,
+    "endChapter": 76,
+    "duration": 1,
+    "location": "狮驼国",
+    "type": "妖怪袭击",
+    "summary": "狮驼国全被妖怪吃光，悟空深入魔窟，被吞入肚中折腾。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "青狮精",
+      "白象精",
+      "大鹏精"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 64.8,
+    "latitude": 35.0
+  },
+  {
+    "id": 64,
+    "name": "请佛收魔",
+    "startChapter": 77,
+    "endChapter": 77,
+    "duration": 1,
+    "location": "狮驼岭",
+    "type": "神佛考验",
+    "summary": "如来佛祖亲自出手，文殊普贤收青狮白象，如来收服大鹏。",
+    "characters": [
+      "如来佛祖",
+      "文殊菩萨",
+      "普贤菩萨",
+      "大鹏精",
+      "孙悟空"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 65.0,
+    "latitude": 35.0
+  },
+  {
+    "id": 65,
+    "name": "比丘救子",
+    "startChapter": 78,
+    "endChapter": 78,
+    "duration": 1,
+    "location": "比丘国",
+    "type": "身份伪装",
+    "summary": "国丈要用一千一百一十个小儿心肝做药引，悟空救走孩童。",
+    "characters": [
+      "孙悟空",
+      "唐僧",
+      "白鹿精",
+      "比丘国国王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 67.0,
+    "latitude": 34.0
+  },
+  {
+    "id": 66,
+    "name": "辨认真邪",
+    "startChapter": 79,
+    "endChapter": 79,
+    "duration": 1,
+    "location": "比丘国",
+    "type": "妖怪袭击",
+    "summary": "国丈是白鹿精，美女是白面狐狸，悟空识破并打败二妖。",
+    "characters": [
+      "孙悟空",
+      "白鹿精",
+      "白面狐狸",
+      "比丘国国王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 67.0,
+    "latitude": 34.0
+  },
+  {
+    "id": 67,
+    "name": "松林救怪",
+    "startChapter": 80,
+    "endChapter": 80,
+    "duration": 1,
+    "location": "镇海寺",
+    "type": "师徒心性",
+    "summary": "悟空打死老鼠精变的受害女子尸体，唐僧责怪杀生，赶悟空。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "老鼠精",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 69.0,
+    "latitude": 33.5
+  },
+  {
+    "id": 68,
+    "name": "僧房卧病",
+    "startChapter": 81,
+    "endChapter": 81,
+    "duration": 1,
+    "location": "镇海寺",
+    "type": "道路阻隔",
+    "summary": "唐僧受惊生病，悟空偷御膳做饭，后探知无底洞妖怪底细。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "老鼠精",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 69.0,
+    "latitude": 33.5
+  },
+  {
+    "id": 69,
+    "name": "无底洞遭困",
+    "startChapter": 82,
+    "endChapter": 83,
+    "duration": 2,
+    "location": "陷空山无底洞",
+    "type": "妖怪袭击",
+    "summary": "老鼠精掳走唐僧逼婚，悟空多次入洞救人，发现李天王牌位。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "老鼠精",
+      "托塔李天王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 70.0,
+    "latitude": 33.0
+  },
+  {
+    "id": 70,
+    "name": "灭法国难行",
+    "startChapter": 83,
+    "endChapter": 84,
+    "duration": 2,
+    "location": "灭法国",
+    "type": "身份伪装",
+    "summary": "国王许愿杀一万和尚，已杀九千九百九十六，师徒剃发混入。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "灭法国国王",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 71.0,
+    "latitude": 32.5
+  },
+  {
+    "id": 71,
+    "name": "隐雾山遇魔",
+    "startChapter": 85,
+    "endChapter": 86,
+    "duration": 2,
+    "location": "隐雾山折岳连环洞",
+    "type": "妖怪袭击",
+    "summary": "艾叶花皮豹子精用分瓣梅花计捉走唐僧，悟空智斗救师。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "豹子精",
+      "猪八戒"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 72.0,
+    "latitude": 32.0
+  },
+  {
+    "id": 72,
+    "name": "凤仙郡求雨",
+    "startChapter": 87,
+    "endChapter": 87,
+    "duration": 1,
+    "location": "凤仙郡",
+    "type": "神佛考验",
+    "summary": "郡侯推倒供桌冒犯上天，三年大旱，悟空劝其向善，求得雨。",
+    "characters": [
+      "孙悟空",
+      "凤仙郡侯",
+      "玉帝",
+      "龙王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 73.0,
+    "latitude": 31.5
+  },
+  {
+    "id": 73,
+    "name": "失落兵器",
+    "startChapter": 88,
+    "endChapter": 88,
+    "duration": 1,
+    "location": "玉华县",
+    "type": "师徒心性",
+    "summary": "王子拜师学艺，悟空三人展示兵器，被黄狮精偷走洞府。",
+    "characters": [
+      "孙悟空",
+      "猪八戒",
+      "沙僧",
+      "黄狮精"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 74.0,
+    "latitude": 31.0
+  },
+  {
+    "id": 74,
+    "name": "会庆钉钯",
+    "startChapter": 89,
+    "endChapter": 89,
+    "duration": 1,
+    "location": "竹节山九曲盘桓洞",
+    "type": "妖怪袭击",
+    "summary": "九灵元圣祖孙捉拿师徒，悟空请太乙天尊，收服九头狮子。",
+    "characters": [
+      "孙悟空",
+      "九灵元圣",
+      "黄狮精",
+      "太乙天尊"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 73.9,
+    "latitude": 31.05
+  },
+  {
+    "id": 75,
+    "name": "竹节山遭难",
+    "startChapter": 90,
+    "endChapter": 90,
+    "duration": 1,
+    "location": "竹节山九曲盘桓洞",
+    "type": "妖怪袭击",
+    "summary": "九灵元圣法力高强，一口擒住悟空等人，太乙天尊及时赶到。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "九灵元圣",
+      "太乙天尊"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 73.9,
+    "latitude": 31.05
+  },
+  {
+    "id": 76,
+    "name": "玄英洞受苦",
+    "startChapter": 91,
+    "endChapter": 92,
+    "duration": 2,
+    "location": "青龙山玄英洞",
+    "type": "妖怪袭击",
+    "summary": "辟寒、辟暑、辟尘三犀牛精索要香油，捉拿唐僧逼婚。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "辟寒大王",
+      "辟暑大王",
+      "辟尘大王"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 75.0,
+    "latitude": 30.5
+  },
+  {
+    "id": 77,
+    "name": "赶捉犀牛",
+    "startChapter": 92,
+    "endChapter": 92,
+    "duration": 1,
+    "location": "青龙山玄英洞",
+    "type": "妖怪袭击",
+    "summary": "悟空联合四木禽星，打败三犀牛精，追回唐僧，斩除妖邪。",
+    "characters": [
+      "孙悟空",
+      "四木禽星",
+      "辟寒大王",
+      "辟暑大王"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 75.0,
+    "latitude": 30.5
+  },
+  {
+    "id": 78,
+    "name": "天竺招婚",
+    "startChapter": 93,
+    "endChapter": 94,
+    "duration": 2,
+    "location": "天竺国",
+    "type": "身份伪装",
+    "summary": "玉兔精假扮公主抛绣球招亲，欲配唐僧，悟空识破其真身。",
+    "characters": [
+      "唐僧",
+      "玉兔精",
+      "孙悟空",
+      "天竺国公主"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 77.0,
+    "latitude": 28.0
+  },
+  {
+    "id": 79,
+    "name": "铜台府监禁",
+    "startChapter": 94,
+    "endChapter": 95,
+    "duration": 2,
+    "location": "铜台府",
+    "type": "身份伪装",
+    "summary": "寇员外斋僧后被强盗杀害，家人诬告唐僧师徒杀人，入狱。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "寇员外",
+      "强盗"
+    ],
+    "characterCount": 4,
+    "stage": "漫长历险",
+    "longitude": 78.0,
+    "latitude": 27.0
+  },
+  {
+    "id": 80,
+    "name": "凌云渡脱胎",
+    "startChapter": 98,
+    "endChapter": 98,
+    "duration": 1,
+    "location": "凌云渡",
+    "type": "神佛考验",
+    "summary": "接引佛祖撑无底船，唐僧脱去凡胎肉身，成就正果，过凌云渡。",
+    "characters": [
+      "唐僧",
+      "接引佛祖",
+      "孙悟空",
+      "猪八戒",
+      "沙僧"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 79.0,
+    "latitude": 26.0
+  },
+  {
+    "id": 81,
+    "name": "通天河遇鼋湿经书",
+    "startChapter": 99,
+    "endChapter": 99,
+    "duration": 1,
+    "location": "通天河",
+    "type": "神佛考验",
+    "summary": "师徒四人取得真经，归途遇老鼋问寿未答，老鼋沉水，经书落水沾湿，晒经石留痕。",
+    "characters": [
+      "唐僧",
+      "孙悟空",
+      "猪八戒",
+      "沙僧",
+      "老鼋"
+    ],
+    "characterCount": 5,
+    "stage": "漫长历险",
+    "longitude": 81.8,
+    "latitude": 25.5
+  }
+]
