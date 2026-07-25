@@ -509,3 +509,130 @@
   opacity: 0.4;
 }
 
+.map-center-column {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+  align-content: start;
+}
+
+.top-locations-content {
+  display: grid;
+  grid-template-columns: minmax(0, 620px) 105px;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: start;
+}
+
+.top-locations-header {
+  margin-bottom: 18px;
+}
+
+.top-locations-header h3 {
+  margin: 0;
+  color: #30413c;
+  font-size: 17px;
+}
+
+.top-locations-header p {
+  margin: 4px 0 0;
+  color: #7b8681;
+  font-size: 12px;
+}
+
+.top-locations-summary {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+}
+
+.top-locations-summary > div {
+  padding: 12px 8px;
+  border-radius: 12px;
+  background: rgba(73, 101, 92, 0.07);
+  text-align: center;
+}
+
+.top-locations-summary span {
+  display: block;
+  color: #7c8782;
+  font-size: 11px;
+}
+
+.top-locations-summary strong {
+  display: block;
+  margin-top: 4px;
+  color: #a6443c;
+  font-size: 19px;
+}
+
+.top-locations-list {
+  display: grid;
+  gap: 11px;
+}
+
+.top-location-item {
+  display: grid;
+  grid-template-columns: 28px 110px minmax(0, 1fr) 42px;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-location-rank {
+  color: #b18b48;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.top-location-name {
+  overflow: hidden;
+  color: #40504b;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.top-location-track {
+  overflow: hidden;
+  height: 7px;
+  max-width: 380px;
+  border-radius: 999px;
+  background: rgba(64, 81, 75, 0.1);
+}
+
+.top-location-bar {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(
+    90deg,
+    #b44d44,
+    #c69a44
+  );
+  transition: width 0.3s ease;
+}
+
+.top-location-count {
+  color: #a6443c;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 1000px) {
+  .top-locations-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 720px) {
+  .top-location-item {
+    grid-template-columns: 26px 90px minmax(0, 1fr) 38px;
+    gap: 8px;
+  }
+
+  .top-locations-summary { width: 100%; }
+
+  .top-locations-summary > div { flex: 1; }
+}

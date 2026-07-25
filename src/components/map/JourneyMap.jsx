@@ -38,6 +38,36 @@ function FitMapBounds({ trials }) {
   return null;
 }
 
+function FocusSelectedTrial({ selectedTrial }) {
+  const map = useMap();
+
+  useEffect(() => {
+    if (!selectedTrial) {
+      return;
+    }
+
+    const latitude = Number(selectedTrial.纬度);
+    const longitude = Number(selectedTrial.经度);
+
+    if (
+      !Number.isFinite(latitude) ||
+      !Number.isFinite(longitude)
+    ) {
+      return;
+    }
+
+    map.flyTo(
+      [latitude, longitude],
+      Math.max(map.getZoom(), 6),
+      {
+        duration: 1,
+      }
+    );
+  }, [map, selectedTrial]);
+
+  return null;
+}
+
 function JourneyMarker({
   group,
   selectedTrial,
@@ -124,6 +154,10 @@ export default function JourneyMap({
           attribution="&copy; OpenStreetMap contributors"
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+
+        <FitMapBounds trials={trials} />
+
+        <FocusSelectedTrial selectedTrial={selectedTrial} />
 
         <CircleMarker
           center={[34.3416, 108.9398]}
