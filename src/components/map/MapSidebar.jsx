@@ -77,7 +77,7 @@ export default function MapSidebar({
           >
             {isPlaying
               ? '⏸ 暂停'
-              : '▶ 播放'}
+              : '▶ 取经'}
           </button>
 
           <button
@@ -159,7 +159,7 @@ export default function MapSidebar({
           </p>
           <p>
             <span>03 </span>
-            劫难类型筛选会同步更新地图点位与统计数据。地点点位是包括长安的去重坐标。
+            劫难类型筛选会同步更新地图点位与统计数据。
           </p>
       </div>
 

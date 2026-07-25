@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import * as d3 from 'd3';
 
 import 'leaflet/dist/leaflet.css';
@@ -11,6 +12,7 @@ import { TYPE_COLORS, createLocationIcon } from '../components/map/mapConfig';
 import TrialDetail from '../components/map/TrialDetail';
 import MapSidebar from '../components/map/MapSidebar';
 import JourneyMap from '../components/map/JourneyMap';
+import TopLocationsChart from '../components/map/TopLocationsChart';
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/trials.csv`;
 
@@ -35,6 +37,11 @@ export default function MapPage() {
 
   const [currentTrialIndex, setCurrentTrialIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
+
+  const location = useLocation();
+  const navigate = useNavigate();
+  const targetTrialId = location.state?.trialId;
+  console.log('地图页收到的 trialId：', targetTrialId);
 
   // 1. 读取CSV
   useEffect(() => {
@@ -148,6 +155,48 @@ export default function MapPage() {
     };
   }, [isPlaying, playbackTrials]);
 
+  // 地图事件页联动更新
+  useEffect(() => {
+  // console.log('收到的 targetTrialId：', targetTrialId);
+  // console.log('当前 playbackTrials 数量：', playbackTrials.length);
+
+  if (
+    targetTrialId === undefined ||
+    targetTrialId === null ||
+    playbackTrials.length === 0
+  ) {
+    return;
+  }
+
+  const targetTrial = playbackTrials.find(
+    trial =>
+      Number(trial.编号) === Number(targetTrialId)
+  );
+
+  console.log('匹配到的 targetTrial：', targetTrial);
+
+  if (!targetTrial) {
+    console.warn(
+      `没有找到第 ${targetTrialId} 难，请检查JSON id与CSV编号是否一致`
+    );
+    return;
+  }
+
+  const targetIndex = playbackTrials.findIndex(
+    trial =>
+      Number(trial.编号) === Number(targetTrialId)
+  );
+
+  setIsPlaying(false);
+  setSelectedType('全部');
+  setSelectedTrial(targetTrial);
+
+  if (targetIndex >= 0) {
+    setCurrentTrialIndex(targetIndex);
+  }
+}, [targetTrialId, playbackTrials]);
+
+
   // 6. 控制函数
   const groupedLocations = useMemo(() => {
     const groups = new Map();
@@ -193,8 +242,8 @@ export default function MapPage() {
     ];
   }, [validTrials]);
 
-
-  function selectTrial(trial) {
+// 路线逻辑
+function selectTrial(trial) {
   if (!trial) return;
 
   const index = playbackTrials.findIndex(
@@ -238,6 +287,36 @@ function resetJourney() {
   setSelectedTrial(playbackTrials[0] || null);
 }
 
+// 小图表
+const topLocations = useMemo(() => {
+  return [...groupedLocations]
+    .map((group) => ({
+      name: group.地点,
+      count: group.trials.length
+    }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 5);
+}, [groupedLocations]);
+
+const locationSummary = useMemo(() => {
+  const repeatedLocations = groupedLocations.filter(
+    (group) => group.trials.length > 1
+  );
+
+  const maxCount =
+    groupedLocations.length > 0
+      ? Math.max(
+          ...groupedLocations.map(
+            (group) => group.trials.length
+          )
+        )
+      : 0;
+
+  return {
+    repeatedCount: repeatedLocations.length,
+    maxCount
+  };
+}, [groupedLocations]);
 
   return (
     <div className="page">
@@ -271,6 +350,7 @@ function resetJourney() {
           locationCount={groupedLocations.length + 1}
         />
 
+      <div className="map-center-column">
         <Panel
           title="八十一难空间分布"
           subtitle="点位颜色表示劫难类型，点击点位查看事件摘要。"
@@ -298,6 +378,13 @@ function resetJourney() {
             />
           )}
         </Panel>
+
+        <TopLocationsChart
+          locations={topLocations}
+          repeatedCount={locationSummary.repeatedCount}
+          maxCount={locationSummary.maxCount}
+        />
+      </div>
 
         <Panel
           title="地点详情"
