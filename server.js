@@ -9,6 +9,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// 读取 Base URL，如果环境变量里没填，就默认使用智谱的地址
+const BASE_URL = process.env.ZHIPU_BASE_URL || 'https://open.bigmodel.cn/api/paas/v4';
+
 app.post('/api/chat', async (req, res) => {
   try {
     const { messages } = req.body;
@@ -19,7 +22,7 @@ app.post('/api/chat', async (req, res) => {
     }
 
     // 调用智谱 AI 开放平台的 OpenAI 兼容接口
-    const response = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
+    const response = await fetch(`${BASE_URL}/chat/completions`,{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
