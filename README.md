@@ -8,7 +8,7 @@
 - 支持多页面导航：总体概览、地理路线、八十一难、人物关系、词频情感
 - 集成地图、时间轴、关系图、文本分析等可视化模块
 - 支持与 AI 对话的智能助手入口
-- 该项目已成功部署到 GitHub Pages ，可以通过访问https://yucc280.github.io/Journey-West/#/ 查看
+- 该项目已成功部署到 GitHub Pages ，可以通过访问 https://yucc280.github.io/Journey-West/#/ 查看
 
 
 ## 技术栈
@@ -49,8 +49,10 @@ journey-west-visualization/
 │   │   ├── OverviewPage.jsx
 │   │   └── TextAnalysisPage.jsx
 │   └── styles/            全局样式与页面样式
+├── .env.example           环境配置示例
 ├── server.js              AI 代理服务入口
 ├── package.json           项目依赖与脚本
+├── package-lock.json      依赖锁文件，安装后生成
 ├── vite.config.js         Vite 配置（含 GitHub Pages 部署 base）
 ├── eslint.config.js       ESLint 配置
 ├── index.html             HTML 入口文件
@@ -83,7 +85,7 @@ http://localhost:5173
 在根目录下新建 `.env` 文件（可参考 `.env.example`），并填入对应的 API Key： 
 `ZHIPU_API_KEY=your_api_key_here `
 
-然后启动后端代理服务：
+然后新建一个终端启动后端代理服务：
 
 ```bash
 node server.js
@@ -105,5 +107,4 @@ http://localhost:3001
 
 ## 注意事项
 
-- 若要在 GitHub Pages 上正常访问静态资源，请确保图片、音频、JSON/CSV 等文件路径使用了项目基路径。
 - AI 对话功能依赖环境变量中的智谱 API Key，需在服务端环境中配置。
