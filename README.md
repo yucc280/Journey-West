@@ -67,6 +67,14 @@ journey-west-visualization/
 npm install
 ```
 
+如果执行 `npm install` 出现依赖冲突报错，使用兼容模式安装：
+
+```
+npm install --legacy-peer-deps
+```
+
+再启动项目
+
 ### 2. 启动前端开发服务器
 
 ```bash
